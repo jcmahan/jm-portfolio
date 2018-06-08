@@ -22,9 +22,20 @@ body{font-family:Lato}h1,h2,h3,h4,h5,h6{font-weight:700;font-family:Montserrat}h
   }
   
   /* When you mouse over the container, the overlay text will "zoom" in display */
-  .container:hover .overlay {
-    transform: scale(1)
+
+.war:hover .overlay {
+  transform: scale(1)
 }
+.hiking:hover .overlay {
+  transform: scale(1)
+}
+.movie:hover .overlay {
+  transform: scale(1)
+}
+.where:hover .overlay {
+  transform: scale(1)
+}
+
 .text {
     color: white;
     font-size: 20px;
