@@ -28,12 +28,18 @@
     "dependencies": {
         "bootstrap": "4.1.1",
         "font-awesome": "4.7.0",
+        "gh-pages": "^1.2.0",
         "hoek": "^5.0.3",
+        "homepage": "https://jcmahan.github.io/jm-portfolio",
         "jquery": "^3.3.1",
         "jquery.easing": "^1.4.1",
         "magnific-popup": "^1.1.0",
         "popper.js": "^1.14.3",
         "tunnel-agent": "^0.6.0"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "devDependencies": {
         "browser-sync": "^2.24.4",
